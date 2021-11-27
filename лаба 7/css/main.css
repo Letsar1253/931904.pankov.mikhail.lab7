@@ -1,0 +1,45 @@
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+section
+{
+  padding: 5px;
+}
+
+#number
+{
+  width: 400px;
+}
+
+#buttons
+{
+  width: 408px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.circle
+{
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: green;
+  opacity: .5;
+  position: fixed;
+}
+
+.square
+{
+  border: 2px solid black;
+  background: red;
+  position: fixed;
+  opacity: .5;
+}
+
+.triangle
+{
+  position: fixed;
+  opacity: .5;
+}
